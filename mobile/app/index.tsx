@@ -1,15 +1,20 @@
-import { Text, View } from "react-native";
+import { ScrollView } from "react-native";
+import AuthNav from "@/components/AuthNav";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Journey from "@/components/Journey";
+import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <ScrollView>
+      <AuthNav />
+      <Hero />
+      <Features />
+      <Journey />
+      <CallToAction />
+      <Footer />
+    </ScrollView >
   );
 }
