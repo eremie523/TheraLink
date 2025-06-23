@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
 import { font, gap, margin, padding, rounded, text as texts, width } from '@/globals/sizes'
 import { backgrounds, text } from '@/globals/colors'
@@ -73,5 +73,3 @@ const Features = () => {
 }
 
 export default Features
-
-const styles = StyleSheet.create({})

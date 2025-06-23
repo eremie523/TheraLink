@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
 import { backgrounds, text as textc } from '@/globals/colors'
 import { font, gap, padding, rounded, text } from '@/globals/sizes'
@@ -76,5 +76,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-const styles = StyleSheet.create({})

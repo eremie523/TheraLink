@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
 import AntIcon from "react-native-vector-icons/AntDesign";
 import { flex } from '@/globals/stlyes';
@@ -19,5 +19,3 @@ const Ratings = ({ count }: { count: number }) => {
 }
 
 export default Ratings
-
-const styles = StyleSheet.create({})

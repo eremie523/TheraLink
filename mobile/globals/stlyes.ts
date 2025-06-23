@@ -1,4 +1,3 @@
-import { transform } from "@babel/core"
 import { StyleSheet } from "react-native"
 
 const flex = StyleSheet.create({

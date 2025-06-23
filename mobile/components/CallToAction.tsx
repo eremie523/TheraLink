@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
 import { font, gap, margin, padding, text as texts } from '@/globals/sizes'
 import { flex, text as texta } from "@/globals/stlyes"
@@ -36,5 +36,3 @@ const CallToAction = () => {
 }
 
 export default CallToAction
-
-const styles = StyleSheet.create({})

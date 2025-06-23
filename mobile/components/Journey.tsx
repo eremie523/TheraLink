@@ -1,8 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react'
 import { font, gap, margin, padding, rounded, text as texts, width } from '@/globals/sizes'
 import { backgrounds, text } from '@/globals/colors'
-import { flex, text as texta, transitions } from "@/globals/stlyes"
+import { flex, text as texta } from "@/globals/stlyes"
 import { JOURNEY } from '@/constants/index'
 
 const Journey = () => {
@@ -72,5 +72,3 @@ const Journey = () => {
 }
 
 export default Journey
-
-const styles = StyleSheet.create({})
